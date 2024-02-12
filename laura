@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will you be my valentine??</title>
+    <style>
+        body {
+            background-color: #ffc0cb; /* Розовый фон */
+            background-image: url('path/to/heart-background.jpg'); /* Замените 'path/to/heart-background.jpg' на путь к вашему изображению */
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1, p {
+            color: #fff; /* Белый текст */
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px; /* Закругленные углы для изображения */
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #ff69b4; /* Розовая кнопка */
+            color: #fff; /* Белый текст на кнопке */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #d1478e; /* Измененный цвет при наведении */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Will you be my valentine?</h1>
+    <p>Laura,I want to ask you, will you be my valentine?</p>
+
+    <img src="https://placekitten.com/300/200" alt="Котик">
+
+    <p>Please answer:</p>
+
+    <button onclick="showLoveMessage()">Yes,I will be your valentine</button>
+
+    <script>
+        function showLoveMessage() {
+            alert("Thank you for being my valentine!❤️");
+        }
+    </script>
+
+</body>
+</html>
